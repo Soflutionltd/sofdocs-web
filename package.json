@@ -1,5 +1,5 @@
 {
-	"name": "sofdocs-web",
+	"name": "alto-web",
 	"private": true,
 	"version": "0.1.0",
 	"type": "module",
@@ -12,7 +12,13 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"sofdocs-wasm": "file:../../crates/wasm/pkg"
+		"@sveltejs/adapter-cloudflare": "^7.2.8",
+		"better-auth": "^1.6.5",
+		"gsap": "^3.15.0",
+		"kysely": "^0.28.16",
+		"kysely-d1": "^0.4.0",
+		"sofdocs-wasm": "file:../../crates/wasm/pkg",
+		"stripe": "^22.0.2"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",

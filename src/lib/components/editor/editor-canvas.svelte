@@ -498,7 +498,7 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					bind:this={editorEl}
-					class="sofdocs-content outline-none"
+					class="alto-content outline-none"
 					style="font-size: {(11 * ui.zoom) / 100}pt; line-height: 1.5;"
 					contenteditable="true"
 					spellcheck="true"
@@ -546,47 +546,47 @@
 </div>
 
 <style>
-	:global(.sofdocs-content p),
-	:global(.sofdocs-content h1),
-	:global(.sofdocs-content h2),
-	:global(.sofdocs-content h3),
-	:global(.sofdocs-content h4),
-	:global(.sofdocs-content h5),
-	:global(.sofdocs-content h6) {
+	:global(.alto-content p),
+	:global(.alto-content h1),
+	:global(.alto-content h2),
+	:global(.alto-content h3),
+	:global(.alto-content h4),
+	:global(.alto-content h5),
+	:global(.alto-content h6) {
 		margin: 0;
 		padding: 2px 0;
 		min-height: 1.2em;
 	}
-	:global(.sofdocs-content h1) {
+	:global(.alto-content h1) {
 		font-size: 2em;
 		font-weight: bold;
 	}
-	:global(.sofdocs-content h2) {
+	:global(.alto-content h2) {
 		font-size: 1.5em;
 		font-weight: bold;
 	}
-	:global(.sofdocs-content h3) {
+	:global(.alto-content h3) {
 		font-size: 1.17em;
 		font-weight: bold;
 	}
-	:global(.sofdocs-content ul),
-	:global(.sofdocs-content ol) {
+	:global(.alto-content ul),
+	:global(.alto-content ol) {
 		margin: 0;
 		padding-left: 2em;
 	}
-	:global(.sofdocs-content li) {
+	:global(.alto-content li) {
 		padding: 1px 0;
 	}
-	:global(.sofdocs-content table) {
+	:global(.alto-content table) {
 		border-collapse: collapse;
 		width: 100%;
 		margin: 1em 0;
 	}
-	:global(.sofdocs-content td) {
+	:global(.alto-content td) {
 		border: 1px solid #ccc;
 		padding: 4px 8px;
 	}
-	:global(.sofdocs-content img) {
+	:global(.alto-content img) {
 		max-width: 100%;
 		display: inline-block;
 	}

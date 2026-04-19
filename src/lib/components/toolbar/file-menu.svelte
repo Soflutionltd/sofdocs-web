@@ -73,7 +73,7 @@
 	<!-- Left panel -->
 	<div class="w-[300px] bg-[var(--color-toolbar-header)] flex flex-col pt-2 shadow-xl">
 		<div class="px-6 py-4">
-			<h2 class="text-white text-lg font-semibold">SofDocs</h2>
+			<h2 class="text-white text-lg font-semibold tracking-tight">Alto Docs</h2>
 		</div>
 
 		<nav class="flex flex-col mt-2">
@@ -92,8 +92,8 @@
 		</nav>
 
 		<div class="mt-auto px-6 py-4 border-t border-white/10">
-			<div class="text-white/50 text-[10px]">SofDocs v0.1.0</div>
-			<div class="text-white/40 text-[9px]">Soflution LTD</div>
+			<div class="text-white/50 text-[10px]">Alto Docs v0.1.0</div>
+			<div class="text-white/40 text-[9px]">Soflution LTD · Made in Europe</div>
 		</div>
 	</div>
 

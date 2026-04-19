@@ -1,0 +1,10 @@
+name = "alto"
+compatibility_date = "2026-04-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".svelte-kit/cloudflare"
+
+# D1 database binding — alto-db (region EEUR)
+[[d1_databases]]
+binding = "DB"
+database_name = "alto-db"
+database_id = "15243bc2-4973-446d-a721-f5797e287c83"
